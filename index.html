@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CandyShop</title>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,800,900,200,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:500,600,700,400,200,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fullwidth.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/settings.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fontawesome/css/all.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/jquery.bxslider.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/style.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/responsive.css"
+      media="screen"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!-- Container -->
+    <div id="container">
+      <!-- Header -->
+      <header class="clearfix">
+        <div class="header-main">
+          <div class="header-left">
+            <div class="logo">
+              <a href="index.html"><img src="imgs/logo.png" alt="" /></a>
+            </div>
+            <!-- Navigation -->
+            <nav id="nav">
+              <ul id="navlist" class="sf-menu clearfix">
+                <li class="current"><a href="index.html">Home</a></li>
+                <li>
+                  <a href="#">Cart/Checkout</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="cart.html"><span>--</span>Shopping Cart</a>
+                    </li>
+                    <li>
+                      <a href="checkout.html"><span>--</span>Checkout</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="shop-grid.html">Sweets</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#"><span>--</span>Fizzy</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Bonbons</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Boiled Sweets</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Jelly & Gummy</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Marshmallow</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Retro Sweets</a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="#"><span>--</span>Sweets from the '60s</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Sweets from the '70s</a>
+                    </li>
+                    <li>
+                      <a href="#"><span>--</span>Sweets from the '80s</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Sweet Hampers</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+            <!-- Navigation -->
+          </div>
+          <div class="header-right">
+            <div class="cart">
+              <a href="#"> My Account</a>
+              <a href="#" class="trigger"><i class="fa fa-search"></i></a>
+              <div class="search-bar">
+                <form action="#">
+                  <input
+                    type="text"
+                    class="searchbox"
+                    placeholder="Search here..."
+                  />
+                  <input type="submit" value="" />
+                </form>
+              </div>
+              <div class="cart-icon">
+                <a href="#"><img src="imgs/checkout/carticon.png" alt="" /></a>
+                <div class="shop-items">2</div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="clear"></div>
+        </div>
+        <!-- End Upper-header -->
+      </header>
+      <!-- End Header -->
+
+      <!-- Slider -->
+      <div class="slider heightski2">
+        <div class="fullwidthbanner-container">
+          <div class="fullwidthbanner" id="intro">
+            <ul>
+              <!-- First SLIDE -->
+              <li
+                data-transition="random"
+                data-slotamount="10"
+                data-masterspeed="300"
+              >
+                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                <img
+                  src="imgs/home_page/banner1.jpg"
+                  data-fullwidthcentering="on"
+                  alt="slide"
+                />
+                <!-- THE CAPTIONS IN THIS SLDIE -->
+                <div
+                  class="caption small_text lft"
+                  data-x="center"
+                  data-y="230"
+                  data-speed="300"
+                  data-start="1200"
+                  data-easing="easeOutExpo"
+                  data-end="7000"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  enim eu turpis egestas pretium
+                </div>
+
+                <div
+                  class="caption lfl"
+                  data-x="center"
+                  data-y="280"
+                  data-speed="400"
+                  data-start="1800"
+                  data-easing="easeOutExpo"
+                  data-end="7200"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  <img src="imgs/home_page/borderline.png" alt="Image 1" />
+                </div>
+
+                <div
+                  class="caption large_color_yellow lfb stt"
+                  data-x="center"
+                  data-y="350"
+                  data-speed="500"
+                  data-start="1800"
+                  data-easing="easeOutExpo"
+                  data-end="7100"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  morbi non arcu risus quis
+                </div>
+
+                <div
+                  class="caption lfb stt"
+                  data-x="center"
+                  data-y="510"
+                  data-hoffset="-90"
+                  data-speed="640"
+                  data-start="2500"
+                  data-easing="easeOutExpo"
+                  data-end="7100"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  <a href="#" class="slider-button">SHOP NOW </a>
+                </div>
+
+                <div
+                  class="caption lfb lft"
+                  data-x="center"
+                  data-y="510"
+                  data-hoffset="90"
+                  data-speed="640"
+                  data-start="2800"
+                  data-easing="easeOutExpo"
+                  data-end="7100"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  <a href="#" class="slider-button noresp">LEARN MORE </a>
+                </div>
+              </li>
+              <!-- second SLIDE -->
+              <li
+                data-transition="random"
+                data-slotamount="10"
+                data-masterspeed="300"
+              >
+                <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
+                <img
+                  src="imgs/home_page/banner2.jpg"
+                  data-fullwidthcentering="on"
+                  alt="slide"
+                />
+                <!-- THE CAPTIONS IN THIS SLDIE -->
+                <div
+                  class="caption small_text lft"
+                  data-x="center"
+                  data-y="230"
+                  data-speed="300"
+                  data-start="1200"
+                  data-easing="easeOutExpo"
+                  data-end="7000"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  vitae auctor eu augue ut
+                </div>
+
+                <div
+                  class="caption lfl"
+                  data-x="center"
+                  data-y="280"
+                  data-speed="400"
+                  data-start="1800"
+                  data-easing="easeOutExpo"
+                  data-end="7200"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  <img src="imgs/home_page/borderline.png" alt="Image 1" />
+                </div>
+
+                <div
+                  class="caption large_color_yellow lfb stt"
+                  data-x="center"
+                  data-y="350"
+                  data-speed="500"
+                  data-start="1800"
+                  data-easing="easeOutExpo"
+                  data-end="7100"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  hendrerit dolor magna eget est
+                </div>
+
+                <div
+                  class="caption lfb stt"
+                  data-x="center"
+                  data-y="440"
+                  data-speed="640"
+                  data-start="2100"
+                  data-easing="easeOutExpo"
+                  data-end="7100"
+                  data-endspeed="300"
+                  data-endeasing="easeInSine"
+                >
+                  <a href="#" class="slider-button">SHOP NOW </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End SLider -->
+
+    <!-- Content -->
+    <div id="content">
+      <div class="ipsum-icons">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="ipsum-icon-box">
+                <i class="fa fa-plane"></i>
+                <h4>Lorem ipsum</h4>
+                <div class="ipsum-icon-border"></div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ipsum-icon-box">
+                <i class="fa fa-chart-bar"></i>
+                <h4>Lorem ipsum</h4>
+                <div class="ipsum-icon-border"></div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ipsum-icon-box">
+                <i class="fas fa-cat"></i>
+                <h4>Lorem ipsum</h4>
+                <div class="ipsum-icon-border"></div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="ipsum-icon-box">
+                <i class="fas fa-head-side-mask"></i>
+                <h4>Lorem ispum</h4>
+                <div class="ipsum-icon-border"></div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Collection -->
+
+      <div class="featured-items mb30">
+        <div class="container">
+          <h1>Featured Items</h1>
+          <div class="list_carousel1 responsive">
+            <ul id="foo1">
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/gummi_bears.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Gummi Bears 1kg</p>
+                  <ul>
+                    <li><span class="low-price">£5.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/cola_bottles.jpg" alt="" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Cola Bottles 1kg</p>
+                  <ul>
+                    <li><span class="low-price">£3.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/assorted_hamper.jpg" alt="" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Assorted Hamper</p>
+                  <ul>
+                    <li><span class="low-price">£7.50</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/retro_lolli.jpg" alt="" />
+                  <img src="imgs/out_of_stock.png" alt="" class="out" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Retro Lollipop</p>
+                  <ul>
+                    <li><span class="low-price">£2.00</span></li>
+                  </ul>
+
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/love_hearts.jpg" alt="" />
+                  <img src="imgs/sale.png" alt="" class="sale" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Love Hearts</p>
+                  <ul>
+                    <li><span class="low-price">£3.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/liquorice.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Liquorice</p>
+                  <ul>
+                    <li><span class="low-price">£3.70</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/bonbons.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Bonbons</p>
+                  <ul>
+                    <li><span class="low-price">£1.25</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/jelly_hearts.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Jelly Hearts</p>
+                  <ul>
+                    <li><span class="low-price">£3.50</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="arrows">
+              <a id="prev1" class="prev1" href="#"
+                ><i class="fa fa-angle-left"></i
+              ></a>
+              <a id="next1" class="next1" href="#"
+                ><i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <!-- End List Carousel -->
+        </div>
+      </div>
+      <!-- featured-items -->
+
+      <div class="container">
+        <div class="midpage-banner">
+          <h1>FREE SHIPPING ON ORDERS OVER £30</h1>
+          <div class="midpage-banner-text">
+            <p>All items ship within 1-2 working days</p>
+          </div>
+          <a href="#">
+            Satisfy your sweet tooth <i class="fa fa-angle-right"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="new-arrivals mb30">
+        <div class="container">
+          <h1>New Arrivals</h1>
+          <div class="list_carousel2 responsive">
+            <ul id="foo2">
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/gummi_bears.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Gummi Bears 1kg</p>
+                  <ul>
+                    <li><span class="low-price">£5.00</span></li>
+                  </ul>
+
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/cola_bottles.jpg" alt="" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Cola Bottles 1kg</p>
+                  <ul>
+                    <li><span class="low-price">£3.00</span></li>
+                  </ul>
+
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/assorted_hamper.jpg" alt="" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Assorted Hamper</p>
+                  <ul>
+                    <li><span class="low-price">£7.50</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/retro_lolli.jpg" alt="" />
+                  <img src="imgs/out_of_stock.png" alt="" class="out" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Retro Lollipop</p>
+                  <ul>
+                    <li><span class="low-price">£2.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/fizzy_worms.jpg" alt="" />
+                  <img src="imgs/sale.png" alt="" class="sale" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Fizzy Worms</p>
+                  <ul>
+                    <li><span class="low-price">£1.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/jelly_beans.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Jelly Beans</p>
+                  <ul>
+                    <li><span class="low-price">£1.50</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/multi-choc.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Chocolate Candies</p>
+                  <ul>
+                    <li><span class="low-price">£3.00</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="product-image">
+                  <img src="imgs/home_page/jelly_baby.jpg" alt="" />
+                  <img src="imgs/new.png" alt="" class="new" />
+                  <div class="product-image-hover">
+                    <a href="#" class="medium-button button-yellow add-cart"
+                      >Add to Cart</a
+                    >
+                    <a href="#" class="wishlist"
+                      ><i class="far fa-heart"></i> Add to Wishlist</a
+                    >
+                    <a href="#" class="compare"
+                      ><i class="fa fa-retweet"></i>Add to Compare</a
+                    >
+                  </div>
+                </div>
+                <div class="arr-content">
+                  <p>Jelly Babies</p>
+                  <ul>
+                    <li><span class="low-price">£1.50</span></li>
+                  </ul>
+                  <div class="stars">
+                    <img src="imgs/star_rating.png" alt="" />
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+            <div class="arrows">
+              <a id="prev2" class="prev1" href="#"
+                ><i class="fa fa-angle-left"></i
+              ></a>
+              <a id="next2" class="next1" href="#"
+                ><i class="fa fa-angle-right"></i
+              ></a>
+            </div>
+          </div>
+          <!-- End List Carousel -->
+        </div>
+      </div>
+      <!-- featured-items -->
+
+      <div class="quotes">
+        <div class="container">
+          <ul class="bxslider">
+            <li>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                risus sed vulputate odio ut enim blandit.
+              </p>
+              <span class="user"
+                >Michael Scott / Manager at Munder Difflin</span
+              >
+            </li>
+
+            <li>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
+                risus sed vulputate odio ut enim blandit.
+              </p>
+              <span class="user">Jim Halpert / Salesman at Munder Difflin</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- End Testimonials -->
+
+      <div class="misc-products">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="misc-prod-item">
+                <h1 class="misc-prod-title">Special Offer</h1>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/lollipops.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Lollipops</h3>
+                        <p class="misc-prod-price">£0.50/ea</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/choc-eggs.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Chocolate Eggs</h3>
+                        <p class="misc-prod-price">£1.00</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/assorted_jelly.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Assorted Jellies</h3>
+                        <p class="misc-prod-price">£3.00</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="misc-prod-item">
+                <h1 class="misc-prod-title">Best Sellers</h1>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/jelly_worms.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Jelly Worms</h3>
+                        <p class="misc-prod-price">£1.75</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/candy_cane.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Candy Canes</h3>
+                        <p class="misc-prod-price">£3.50</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/candy_corn.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Candy Corn</h3>
+                        <p class="misc-prod-price">£2.75</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="misc-prod-item">
+                <h1 class="misc-prod-title">Top Rated</h1>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/marshmallow.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Marshmallows</h3>
+                        <p class="misc-prod-price">£2.75</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/candy_chews.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Candy Chews</h3>
+                        <p class="misc-prod-price">£1.50</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/fizzy_strawbs.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Fizzy Strawberries</h3>
+                        <p class="misc-prod-price">£2.50</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="misc-prod-item">
+                <h1 class="misc-prod-title">Sales</h1>
+                <ul>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/fizzy_worms_small.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Fizzy Worms</h3>
+                        <p class="misc-prod-price">£1.00</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/love_hearts_small.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Love Hearts</h3>
+                        <p class="misc-prod-price">£3.00</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <img src="imgs/home_page/fudge.jpg" alt="" />
+                      <div class="misc-prod-desc">
+                        <h3>Fudge</h3>
+                        <p class="misc-prod-price">£3.75</p>
+                      </div>
+                      <span class="clear"></span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="adverts">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo1.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo2.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo3.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo4.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo5.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo6.jpg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="about-info">
+                <h1>ABOUT SHOP</h1>
+                <p class="mb20">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis tristique sollicitudin nibh sit amet commodo nulla
+                  facilisi.
+                </p>
+                <h1>NEWSLETTER</h1>
+                <form action="#">
+                  <input type="text" placeholder="Your e-mail" />
+                  <input type="submit" value="" />
+                </form>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="information">
+                <h1>Information</h1>
+                <ul>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="my-account">
+                <h1>My Account</h1>
+                <ul>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="contact-us">
+                <h1>Contact Us</h1>
+                <p><i class="fa fa-home"></i>Scranton, Pennsylvania</p>
+                <p><i class="fa fa-phone"></i> 0159 722333</p>
+                <p class="mb20">
+                  <i class="fa fa-envelope"></i> contactus@gmail.com
+                </p>
+                <h1>FIND US ON</h1>
+                <ul class="social-footer">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="back-to-top">
+          <a href="#top">Return to top?</a>
+        </div>
+      </div>
+      <!-- end contanir & footer -->
+      <div class="container">
+        <div class="copyw-pay">
+          <div class="row">
+            <div class="copyright">© 2020 Welcome to the CandyShop</div>
+            <div class="payment">
+              <a href="#"><img src="imgs/checkout/waystoPay.png" alt="" /></a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/jquery.carouFredSel.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Banner Settings -->
+    <script>
+      const tpj = jQuery;
+      tpj.noConflict();
+
+      tpj(document).ready(function () {
+        if (tpj.fn.cssOriginal != undefined) tpj.fn.css = tpj.fn.cssOriginal;
+
+        const api = tpj(".fullwidthbanner").revolution({
+          delay: 8000,
+          startwidth: 1170,
+          startheight: 700,
+
+          onHoverStop: "off", // Stop Banner Timet at Hover on Slide on/off
+
+          thumbWidth: 100, // Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+          thumbHeight: 50,
+          thumbAmount: 3,
+
+          hideThumbs: 0,
+          navigationType: "bullet", // bullet, thumb, none
+          navigationArrows: "solo", // nexttobullets, solo (old name verticalcentered), none
+
+          navigationStyle: "round", // round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+          navigationHAlign: "center", // Vertical Align top,center,bottom
+          navigationVAlign: "bottom", // Horizontal Align left,center,right
+          navigationHOffset: 30,
+          navigationVOffset: 40,
+
+          soloArrowLeftHalign: "left",
+          soloArrowLeftValign: "center",
+          soloArrowLeftHOffset: 40,
+          soloArrowLeftVOffset: 0,
+
+          soloArrowRightHalign: "right",
+          soloArrowRightValign: "center",
+          soloArrowRightHOffset: 40,
+          soloArrowRightVOffset: 0,
+
+          touchenabled: "on", // Enable Swipe Function : on/off
+
+          stopAtSlide: -1, // Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+          stopAfterLoops: -1, // Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+          hideCaptionAtLimit: 0, // It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+          hideAllCaptionAtLilmit: 0, // Hide all The Captions if Width of Browser is less then this value
+          hideSliderAtLimit: 0, // Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+          fullWidth: "on",
+
+          shadow: 1, //0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+        });
+        api.bind("revolution.slide.onloaded", function (e) {
+          jQuery(".tparrows").each(function () {
+            const arrows = jQuery(this);
+
+            const timer = setInterval(function () {
+              if (
+                arrows.css("opacity") == 1 &&
+                !jQuery(".tp-simpleresponsive").hasClass("mouseisover")
+              )
+                arrows.fadeOut(300);
+            }, 3000);
+          });
+
+          jQuery(".tp-simpleresponsive, .tparrows").hover(
+            function () {
+              jQuery(".tp-simpleresponsive").addClass("mouseisover");
+              jQuery("body")
+                .find(".tparrows")
+                .each(function () {
+                  jQuery(this).fadeIn(300);
+                });
+            },
+            function () {
+              if (!jQuery(this).hasClass("tparrows"))
+                jQuery(".tp-simpleresponsive").removeClass("mouseisover");
+            }
+          );
+        });
+      });
+    </script>
+  </body>
+</html>

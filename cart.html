@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CandyShop</title>
+    <!-- Metas -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Fonts -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:400,300,500,600,800,900,200,100"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Noticia+Text:400,400italic,700,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:500,600,700,400,200,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic,700italic,900italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/bootstrap.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fullwidth.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/settings.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/fontawesome/css/all.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/jquery.bxslider.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/style.css"
+      media="screen"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/responsive.css"
+      media="screen"
+    />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon" />
+    <link rel="icon" href="imgs/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+    <!-- Container -->
+    <div id="container">
+      <!-- Header -->
+      <header class="clearfix">
+        <div class="top-line">
+          <div class="container">
+            <div class="left-line">
+              <ul class="lang clearfix">
+                <li>
+                  <span>Language: </span>
+                  <a href="#">ENG <i class="fa fa-angle-down"></i></a>
+                  <ul class="drop-down">
+                    <li><a href="#">SPA</a></li>
+                    <li><a href="#">FRA</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="curr clearfix">
+                <li>
+                  <span>Currency: </span
+                  ><a href="#">GBP <i class="fa fa-angle-down"></i></a>
+                  <ul class="drop-down">
+                    <li><a href="#">USD</a></li>
+                    <li><a href="#">EUR</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="mobile-login">
+                <a href="#login-box" class="login-window"
+                  ><i class="fa fa-user"></i
+                ></a>
+                <a href="#"><i class="far fa-heart"></i></a>
+              </div>
+            </div>
+            <div class="right-line clearfix">
+              <ul>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">Checkout</a></li>
+                <li><a href="#login-box" class="login-window">Login</a></li>
+              </ul>
+              <div class="mobile-version">
+                <div class="cart-icon-white">
+                  <a href="#"
+                    ><img src="imgs/checkout/carticon.png" alt="" />
+                    <span>2 items</span></a
+                  >
+                </div>
+              </div>
+              <div id="login-box" class="login-popup">
+                <a href="#" class="close"
+                  ><img
+                    src="imgs/delete.png"
+                    class="btn_close"
+                    title="Close Window"
+                    alt="Close"
+                /></a>
+                <form method="post" class="signin" action="#">
+                  <fieldset class="textbox">
+                    <h4 class="login-title">LOGIN</h4>
+                    <input placeholder="Email*" />
+                    <input placeholder="Password*" />
+                    <input type="checkbox" name="signed" value="Stayin" />
+                    <span class="signed">Remember Me</span>
+                    <button class="submit button" type="button">Login</button>
+                    <p>
+                      <a class="recover" href="#">Sign up</a>
+                      <a href="#" class="forgot-pw">Forgot password?</a>
+                    </p>
+                    <div class="clear"></div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <!-- end topline -->
+        <div class="upper-header">
+          <div class="container">
+            <div class="search-input">
+              <form action="#">
+                <input type="text" placeholder="Search here..." />
+                <input type="submit" value="" />
+              </form>
+            </div>
+            <div class="logo">
+              <a href="index.html"><img src="imgs/logo.png" alt="" /></a>
+            </div>
+            <div class="cart">
+              <a href="#" class="cart-info"> Cart / £12.50</a>
+              <div class="cart-icon">
+                <img src="imgs/checkout/carticon.png" alt="" />
+                <div class="shop-items">2</div>
+              </div>
+              <div class="cart-hover">
+                <div class="hover-box">
+                  <a href="#"
+                    ><img
+                      src="imgs/home_page/gummi_bears.jpg"
+                      alt=""
+                      class="left-hover"
+                  /></a>
+                  <div class="hover-details">
+                    <p>Gummi Bears 1kg</p>
+                    <span>£5.00</span>
+                    <div class="quantity">Quantity: 1</div>
+                  </div>
+                  <a href="#" class="right-hover"
+                    ><img src="imgs/delete.png" alt=""
+                  /></a>
+                  <div class="clear"></div>
+                </div>
+                <div class="hover-box bd0">
+                  <img
+                    src="imgs/home_page/assorted_hamper.jpg"
+                    alt=""
+                    class="left-hover"
+                  />
+                  <div class="hover-details">
+                    <p>Assorted Hamper</p>
+                    <span>£7.50</span>
+                    <div class="quantity">Quantity: 1</div>
+                  </div>
+                  <a href="#" class="right-hover"
+                    ><img src="imgs/delete.png" alt=""
+                  /></a>
+                  <div class="clear"></div>
+                </div>
+                <div class="subtotal">Cart Subtotal: <span>£12.50</span></div>
+                <button class="viewcard">View Cart</button>
+                <button class="proceedcard">Proceed</button>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <!-- End container -->
+        </div>
+        <!-- End Upper-header -->
+        <div class="nav-border"></div>
+        <div class="container">
+          <!-- Navigation -->
+          <nav id="nav">
+            <ul id="navlist" class="sf-menu clearfix">
+              <li><a href="index.html">Home</a></li>
+              <li class="current">
+                <a href="#">Cart/Checkout</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="cart.html"><span>--</span>Shopping Cart</a>
+                  </li>
+                  <li>
+                    <a href="checkout.html"><span>--</span>Checkout</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="shop-grid.html">Sweets</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#"><span>--</span>Fizzy</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Bonbons</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Boiled Sweets</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Jelly & Gummy</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Marshmallow</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Retro Sweets</a>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="#"><span>--</span>Sweets from the '60s</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Sweets from the '70s</a>
+                  </li>
+                  <li>
+                    <a href="#"><span>--</span>Sweets from the '80s</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#">Sweet Hampers</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- Navigation -->
+        </div>
+      </header>
+      <!-- End Header -->
+      <!-- content -->
+      <div id="content">
+        <div class="checkout">
+          <div class="container">
+            <div class="check-anchor clearfix mb40">
+              <div class="holder">
+                <ul>
+                  <li class="active">
+                    <a href="#"><i class="fas fa-circle"></i> Shopping Cart</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fas fa-circle"></i> Checkout</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fas fa-circle"></i> ORDER COMPLETE
+                      <i class="fas fa-circle"></i
+                    ></a>
+                  </li>
+                </ul>
+                <div class="holder-border"></div>
+              </div>
+            </div>
+            <div class="check-information">
+              <div class="row">
+                <div class="col-md-8">
+                  <div class="check-details">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th>Details</th>
+                          <th>Price</th>
+                          <th>Quantity</th>
+                          <th>Subtotal</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody class="check-body">
+                        <tr>
+                          <td>
+                            <img src="imgs/cart/gummi_bears.jpg" alt="" />
+                          </td>
+                          <td>
+                            <h6>Gummi Bears</h6>
+                            <p>Weight Option: <span>1kg</span></p>
+                          </td>
+
+                          <td>£5.00</td>
+                          <td><input type="text" placeholder="1" /></td>
+                          <td>£5.00</td>
+                          <td>
+                            <a href="#"><img src="imgs/delete.png" alt="" /></a>
+                          </td>
+                        </tr>
+
+                        <tr>
+                          <td>
+                            <img src="imgs/cart/assorted_hamper.jpg" alt="" />
+                          </td>
+                          <td>
+                            <h6>Assorted Hamper</h6>
+                            <p>Weight Option: <span>3kg</span></p>
+                          </td>
+
+                          <td>£7.50</td>
+                          <td><input type="text" placeholder="1" /></td>
+                          <td>£7.50</td>
+                          <td>
+                            <a href="#"><img src="imgs/delete.png" alt="" /></a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="coupon">
+                      <input type="text" placeholder="Apply Coupon" />
+                      <input type="submit" value="Apply" />
+
+                      <a href="#" class="update">Update Cart</a>
+                      <a href="#" class="proceed">proceed to checkout</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="check-aside">
+                    <div class="orders mb20">
+                      <h6>Cart totals</h6>
+                      <p>Cart Subtotal: <span>£12.50</span></p>
+                      <p>Shipping and Handling: <span>£3.00</span></p>
+                      <p class="bd0">
+                        <strong>Order Total: <span>£15.50</span></strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Product Single -->
+      <div class="adverts">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo1.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo2.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo3.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo4.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo5.jpg" alt="" /></a>
+            </div>
+            <div class="col-sm-2">
+              <a href="#"><img src="imgs/logo6.jpg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="about-info">
+                <h1>ABOUT SHOP</h1>
+                <p class="mb20">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Duis tristique sollicitudin nibh sit amet commodo nulla
+                  facilisi.
+                </p>
+                <h1>NEWSLETTER</h1>
+                <form action="#">
+                  <input type="text" placeholder="Your e-mail" />
+                  <input type="submit" value="" />
+                </form>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="information">
+                <h1>Information</h1>
+                <ul>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="my-account">
+                <h1>My Account</h1>
+                <ul>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                  <li><a href="#">• Lorem Ipsum</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="contact-us">
+                <h1>Get in Touch with us</h1>
+                <p><i class="fa fa-home"></i>Scranton, Pennsylvania</p>
+                <p><i class="fa fa-phone"></i> 0159 722333</p>
+                <p class="mb20">
+                  <i class="fa fa-envelope"></i> contactus@gmail.com
+                </p>
+                <h1>FIND US ON</h1>
+                <ul class="social-footer">
+                  <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="back-to-top">
+          <a href="#top">Back to Top</a>
+        </div>
+      </div>
+      <!-- end contanir & footer -->
+      <div class="container">
+        <div class="copyw-pay">
+          <div class="row">
+            <div class="copyright">© 2020 Welcome to the CandyShop</div>
+            <div class="payment">
+              <a href="#"><img src="imgs/checkout/waystoPay.png" alt="" /></a>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.themepunch.revolution.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/jquery.touchSwipe.min.js"></script>
+  </body>
+</html>
